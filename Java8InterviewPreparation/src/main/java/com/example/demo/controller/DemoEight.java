@@ -8,14 +8,18 @@ public class DemoEight {
 		System.out.println("Stat learning java 1.8 with positive motivation ....by kundan kumar ");
 
 		ArrayList<Integer> arrayList = new ArrayList<>();
-		for(int i=0;i<10;i++)
+		for(int i=0;i<20;i++)
 		{
-			arrayList.add(i);
+			if(i==9) {
+				arrayList.add(i);
+			}
+			
 		}
 		System.out.println("Arraylist" +arrayList);
 		
 		for(Integer i:arrayList) {
 			System.out.println("Iterate the value from array .."+i);
 		}
+		
 	}
 }
