@@ -22,4 +22,12 @@ public class DemoEight {
 		}
 		
 	}
+	
+	public static void getNameById() {
+		String name = null;
+		
+		if(name.isBlank()) {
+			System.out.println("kundan kumar");
+		}
+	}
 }
